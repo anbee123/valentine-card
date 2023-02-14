@@ -10,3 +10,21 @@ body {
     position: relative;
     cursor: pointer;
 }
+ /* evelope style */
+ .envelope{
+    position: relative;
+    filter: drop-shadow(0 0 25px rgba(0,0,0, .3));
+ }
+
+ .envelope:before {
+    content: "";
+    position: absolute;
+    width: 254px;
+    height: 254px;
+    background-color: blue;
+    transform: rotate(-45deg);
+    border-radius: 0 15px 0 0;
+    left: -37px;
+    top: -82px;
+ }
+ 
