@@ -70,3 +70,36 @@ body {
     top: -36px;
     left: -170px;
  }
+ 
+ .heart{
+    position: relative;
+    background-color: #e01911;
+    display: inline-block;
+    height: 180px;
+    top: 50px;
+    left: 0;
+    transform: rotate(-45deg);
+    width: 180px;
+    filter: drop-shadow(0 -10px 25px rgba(0, 0, 0, .3));
+    transition: .5s;
+ }
+
+ .heart:before, .heart:after {
+    content: "";
+    background-color: #e01911;
+    border-radius: 50%;
+    height: 180px;
+    width: 180px;
+    position: absolute;
+ }
+
+ .heart:before{
+    top: -100px;
+    left:0;
+ }
+
+ .heart::after{
+    left:100px;
+    top:0;
+    
+ }
