@@ -137,4 +137,44 @@ body {
 
  }
 
- 
+ /* text style */
+
+ .text{
+    position: absolute;
+    font-family: arial;
+    letter-spacing: 5px;
+    text-align: center;
+    color: white;
+    z-index: 2;
+    top:80px;
+    left:15px;
+    transition: .5s;
+ }
+ .text2{
+    position: absolute;
+    top:290px;
+    color: rgb(27, 26, 26);
+    font-family: brush script mt;
+    text-align: center;
+    width: 180px;
+    font-size: 30px;
+
+ }
+ .text3 {
+    position: absolute;
+    top:-200px;
+    color: rgb(27, 26, 26);
+    font-family: brush script mt;
+    text-align: center;
+    width: 180px;
+    font-size: 30px;
+
+
+ }
+ .valentines-day:hover .heart {
+    transform: translateY(-100px) rotate(-45deg);
+
+ }
+ .valentines-day:hover .text {
+    transform: translateY(-100px);
+ }
